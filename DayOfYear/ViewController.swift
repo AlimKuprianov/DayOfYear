@@ -14,12 +14,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var yearTF: UITextField!
     
     @IBOutlet weak var hereLabel: UILabel!
+    @IBOutlet weak var dateButton: UIButton!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
       //  hideKeyboardWhenTappedAround()
+        
+        dateButton.layer.cornerRadius = 7
+        dateButton.clipsToBounds = true
     }
+    
+    
     
     @IBAction func DateButton(_ sender: UIButton) {
         

@@ -112,6 +112,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dateButton" destination="qS2-w7-622" id="LIQ-fk-KXZ"/>
                         <outlet property="dateTF" destination="5sD-03-Bpm" id="zU8-7N-zdo"/>
                         <outlet property="hereLabel" destination="D3G-z5-LZm" id="jOQ-Ce-qXH"/>
                         <outlet property="monthTF" destination="vq9-NP-Ycn" id="OuE-0k-g7v"/>
